@@ -10,14 +10,101 @@
   border-bottom: 4px solid silver;
   background: #333;
   color: #fff;
-  line-height: 50px;
+  line-height: 70px;
   margin-bottom: 50px;
 }
 
-#main {
+.news {
   width: 50%;
-  margin-left: 10%;
   background: #fafafa;
   border: 1px solid silver;
   padding: 20px 2.5%;
+  margin: 20px 10%;
+}
+#time_in_news {
+  text-align: right;
+}
+
+#pages {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: none;
+  border: none;
+}
+
+#title {
+  margin: 15px;
+}
+
+#content {
+  white-space: pre-wrap;
+}
+
+.page:hover {
+  cursor: pointer;
+}
+#news_title:link {
+  color: #28343a;
+}
+#news_title:visited {
+  color: #254d59;
+}
+
+#bestNews:link, #bestNews:visited, #bestNews:active {
+  color: #fff;
+  text-decoration: none;
+}
+#central_block {
+  width: 50%;
+  background: #fafafa;
+  border: 1px solid silver;
+  padding: 20px 2.5%;
+  margin: 20px 10%;
+  align-self: center;
+}
+#question_text {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  align-self: center;
+}
+
+#buttons {
+  align-self: center;
+}
+
+.title_field, .brief_field, .content_field {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  word-wrap: normal;
+}
+
+.title_field {
+  width: 80%;
+  height: 20px;
+  text-align: start;
+}
+
+.brief_field {
+  width: 80%;
+  height: 150px;
+  text-align: start;
+}
+
+.content_field {
+  width: 80%;
+  height: 500px;
+  text-align: start;
 }
